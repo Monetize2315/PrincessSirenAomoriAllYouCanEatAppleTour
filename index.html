@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FFFCF6">
+<title>東京・青森八日遊｜旅行手帖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#fffcf6;--ink:#3e3a39;--pink:#f2a497;--yellow:#f6d27a;--blue:#a8d3e6;--green:#b9daa5;--line:3px solid var(--ink);--round:25px;--shadow:4px 5px 0 var(--ink);--muted:#665d58}
+*{box-sizing:border-box} html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Huninn,"PingFang TC","Microsoft JhengHei",sans-serif;font-size:16px;line-height:1.65} button,input{font:inherit}button{cursor:pointer;color:inherit}a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #41738a;outline-offset:4px} [hidden]{display:none!important}.wrap{width:min(1120px,calc(100% - 32px));margin-inline:auto}.top{position:fixed;z-index:5;top:0;left:0;right:0;border-bottom:var(--line);background:var(--paper)}.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:65px}.brand{font-weight:bold;display:flex;align-items:center;gap:8px;text-decoration:none;white-space:nowrap}.brand svg{width:29px;height:30px}.nav{display:flex;gap:clamp(10px,3vw,36px);align-items:center}.nav a{font-size:14px;text-decoration:none;white-space:nowrap}.nav a:hover{text-decoration:underline;text-underline-offset:5px}.skip{position:absolute;top:-80px;background:var(--yellow);padding:9px;left:16px}.skip:focus{top:8px;z-index:9}
+main{padding-top:98px}.hero{border:var(--line);border-radius:30px;overflow:hidden;background:#fff7e8;display:grid;box-shadow:var(--shadow)}.hero-copy{padding:28px 20px 23px;position:relative;z-index:1}.date-stamp,.badge,.tag{display:inline-flex;align-items:center;gap:5px;border:2px solid var(--ink);border-radius:999px;padding:2px 10px;font-size:13px;line-height:1.4;white-space:nowrap;background:var(--paper)}.date-stamp{background:var(--yellow);letter-spacing:.08em;padding:5px 11px}.hero h1{font-size:clamp(39px,7vw,79px);line-height:1.06;letter-spacing:.035em;margin:13px 0 12px;font-weight:800}.hero h1 span{display:block;font-size:.56em;letter-spacing:.12em;margin-top:8px}.hero-copy p{margin:0 0 15px;color:var(--muted);font-size:15px}.count-label{font-size:13px;letter-spacing:.12em;margin:15px 0 4px}.count{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.count span{border:2px solid var(--ink);background:var(--paper);border-radius:12px;padding:2px 9px;line-height:1.5;font-size:13px}.count strong{font-size:23px;font-variant-numeric:tabular-nums}.count span:first-child{background:var(--pink)}.art{align-self:end;background:#fff7e8;padding:0 10px 6px}.art svg{display:block;width:100%;height:auto}.float{animation:float 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.float.alt{animation-delay:-1.7s}.twinkle{animation:float 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes float{50%{transform:translateY(-7px)}}
+.section{margin-top:54px}.section-head{display:flex;align-items:center;gap:12px;margin-bottom:15px}.section-head svg{width:41px;height:41px;flex:none}.section-head h2{font-size:clamp(25px,4vw,36px);line-height:1.2;margin:0;letter-spacing:.035em}.rule{height:2px;background:var(--ink);flex:1;margin-left:4px;opacity:.42}.grid{display:grid;gap:15px}.card{border:var(--line);border-radius:var(--round);background:var(--paper);overflow:hidden}.flight-head{padding:9px 15px;border-bottom:var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}.pink{background:var(--pink)}.yellow{background:var(--yellow)}.blue{background:var(--blue)}.green{background:var(--green)}.flight-body{padding:16px}.airports{display:grid;grid-template-columns:1fr 34px 1fr;align-items:center;gap:5px}.airports div:last-child{text-align:right}.airports b{display:block;font-size:clamp(25px,5vw,35px);line-height:1.16;font-variant-numeric:tabular-nums}.airports small{display:block;color:var(--muted);margin-top:5px}.airports svg{width:30px}.flight-body p{font-size:13px;color:var(--muted);margin:11px 0 0}.map{text-decoration:underline;text-underline-offset:3px;font-size:13px}.map:hover{background:#f9e6b4}.maps{display:flex;flex-wrap:wrap;gap:2px 12px;margin-top:6px}.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-bottom:15px}.tabs button{border:2px solid var(--ink);background:var(--paper);border-radius:13px;padding:5px 2px;min-height:48px;font-size:15px;white-space:nowrap}.tabs button small{display:block;font-size:11px;line-height:1.15}.tabs button[aria-selected=true]{background:var(--yellow);box-shadow:2px 3px 0 var(--ink);font-weight:bold}.day{border:var(--line);border-radius:var(--round);overflow:hidden;background:var(--paper)}.day-head{display:flex;align-items:center;justify-content:space-between;gap:8px;background:#e5f1db;padding:14px 13px;border-bottom:var(--line)}.day-head h3{margin:0;font-size:clamp(19px,4.6vw,29px);line-height:1.25}.day-head p{margin:3px 0 0;font-size:13px}.day-head svg{width:54px;height:54px;flex:none}.weather{margin:12px 14px 0;padding:8px 11px;background:#eaf5f9;border-radius:11px;font-size:13px}.timeline{margin:0;padding:12px 13px 14px;list-style:none}.event{position:relative;display:grid;grid-template-columns:1fr;gap:2px;padding:9px 0 13px 18px;margin-left:5px;border-left:2px solid var(--ink)}.event:before{content:"";position:absolute;left:-6px;top:15px;width:9px;height:9px;border:2px solid var(--ink);border-radius:50%;background:var(--yellow)}.event:last-child{border-left-color:transparent}.event time{font-size:14px;font-weight:bold;white-space:nowrap}.event p{margin:3px 0 0;overflow-wrap:anywhere}.event .note{font-size:13px;color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:5px}.tag{padding:1px 8px;font-size:11px}.must{background:var(--yellow)}.todo-head{border-bottom:var(--line);padding:10px 15px;display:flex;align-items:center;gap:8px;justify-content:space-between}.todo-head h3{font-size:19px;margin:0}.todo-head span{font-size:13px}.todo-body{padding:5px 14px 10px}.todo{display:flex;align-items:flex-start;gap:9px;padding:8px 0;border-bottom:1px dashed #b1a49a;cursor:pointer}.todo:last-child{border-bottom:0}.todo input{margin:4px 0 0;width:19px;height:19px;flex:none;accent-color:#526e40}.todo:has(input:checked) span{text-decoration:line-through;color:var(--muted)}.hotel{padding:15px 16px}.hotel h3{margin:6px 0 3px;line-height:1.35;font-size:20px}.hotel p{margin:0 0 7px;font-size:14px}.hotel .sub{color:var(--muted)}.hotel .badge{font-size:11px}.hotel .badge:first-child{background:var(--blue)}.hotel .badge.pending{background:var(--yellow)}.check-section{display:grid;gap:16px}.foot{margin-top:55px;border-top:var(--line);padding:18px 0 25px;background:#fff5e6}.foot .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}.foot p{margin:0;font-size:13px}.motion{background:var(--paper);border:2px solid var(--ink);border-radius:999px;padding:5px 10px;font-size:13px}.motion[aria-pressed=true]{background:var(--green)}.pop{animation:pop .32s ease-out}@keyframes pop{0%{transform:translateY(6px) scale(.989);opacity:.6}60%{transform:translateY(-2px)}100%{transform:none;opacity:1}}html[data-motion=off]{scroll-behavior:auto}html[data-motion=off] *,html[data-motion=off] *:before{animation:none!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before{animation:none!important}}
+@media(min-width:600px){.grid.two,.check-section{grid-template-columns:repeat(2,minmax(0,1fr))}.tabs{grid-template-columns:repeat(8,minmax(0,1fr))}.event{grid-template-columns:123px minmax(0,1fr);gap:9px}.timeline{padding:16px 24px 14px}.day-head{padding:15px 23px}.weather{margin-inline:22px}}
+@media(min-width:850px){main{padding-top:107px}.hero{grid-template-columns:.9fr 1.1fr;align-items:center}.hero-copy{padding:36px 0 34px 34px}.art{padding:5px 12px 5px 0}.grid.hotels{grid-template-columns:repeat(3,minmax(0,1fr))}.section{margin-top:62px}}
+@media(max-width:480px){.bar{gap:7px}.brand span{display:none}.nav{gap:10px}.nav a{font-size:12px}.wrap{width:calc(100% - 26px)}.section{margin-top:44px}}
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="apple" viewBox="0 0 64 64"><path d="M32 22c-10-9-26-3-26 10 0 14 10 25 19 24 4 0 6-2 8-2s5 2 8 2c10 0 18-12 18-24 0-13-17-19-27-10Z" fill="#f2a497"/><path d="M32 23c0-8-1-12-5-16m6 12C34 9 44 5 52 8c-1 9-10 13-19 11Z" fill="#b9daa5"/><path d="M15 32c0-4 3-7 6-8" fill="none"/></symbol>
+<symbol id="plane" viewBox="0 0 64 64"><path d="M57 28c4 4-1 9-7 10l-11 2-12 15-7-1 7-13-13-1-7 7-5-2 4-11-3-10 6-2 6 6 12 1-7-14 7-1 13 15 10-2c3-1 5-1 7 1Z" fill="#a8d3e6"/><path d="M43 33h7" fill="none"/></symbol>
+<symbol id="train" viewBox="0 0 64 64"><path d="M11 13q0-5 6-5h30q6 0 6 5v30q0 6-7 6H18q-7 0-7-6Z" fill="#f2a497"/><rect x="17" y="15" width="30" height="17" rx="5" fill="#a8d3e6"/><path d="M17 56h30M22 49l-7 10m27-10 7 10M24 40h-5m26 0h-5" fill="none"/></symbol>
+<symbol id="mountain" viewBox="0 0 64 64"><path d="M3 53 25 15q5-9 11 0l25 38Z" fill="#a8d3e6"/><path d="m17 29 8-14q5-9 11 0l9 14-6-3-6 5-7-5-5 4Z" fill="#fffcf6"/><path d="M15 46q2-12 7-14m21 14q-1-8-5-11" fill="none"/></symbol>
+<symbol id="check" viewBox="0 0 64 64"><rect x="12" y="11" width="40" height="47" rx="7" fill="#b9daa5"/><rect x="23" y="6" width="18" height="11" rx="4" fill="#fffcf6"/><path d="m20 33 7 7 16-16m-21 24h20" fill="none"/></symbol>
+<symbol id="house" viewBox="0 0 64 64"><path d="M10 30v25h44V30L32 10Z" fill="#f6d27a"/><path d="M4 32 32 7l28 25M26 55V40h12v15" fill="#fffcf6"/><path d="M17 35h6m19 0h6" fill="none"/></symbol>
+<symbol id="torii" viewBox="0 0 64 64"><path d="M10 17q22 5 44 0l5-6q-27 5-54 0ZM9 26h46v5H9Zm9-8h6l-3 40h-6Zm22 0h6l3 40h-6Z" fill="#f2a497"/><path d="M28 19h8v10h-8Z" fill="#f6d27a"/></symbol>
+<symbol id="bag" viewBox="0 0 64 64"><rect x="10" y="18" width="44" height="36" rx="8" fill="#a8d3e6"/><path d="M24 18v-7h16v7m-18 1v34m20-34v34m-25 2v4m30-4v4" fill="none"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">跳到行程內容</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="#main" aria-label="旅行手帖首頁"><svg aria-hidden="true" stroke="#3e3a39" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><use href="#apple"/></svg><span>旅行手帖</span></a>
+<nav class="nav" aria-label="網站選單"><a href="#flights">航班</a><a href="#itinerary">每日行程</a><a href="#hotels">住宿</a><a href="#lists">清單</a></nav>
+</div></header>
+<main class="wrap" id="main">
+<section class="hero" aria-labelledby="title">
+<div class="hero-copy">
+<div class="date-stamp">2027.05.08 — 05.15</div>
+<h1 id="title">東京・青森<span>八日遊</span></h1>
+<p>5/8 兩人同行・5/9 起四人同行</p>
+<div class="count-label" id="count-label">距離起飛</div>
+<div class="count" id="count" aria-labelledby="count-label"><span><strong id="days">—</strong> 天</span><span><strong id="hours">—</strong> 小時</span><span><strong id="minutes">—</strong> 分</span></div>
+</div>
+<div class="art">
+<svg viewBox="0 0 660 393" role="img" aria-labelledby="art-title" xmlns="http://www.w3.org/2000/svg">
+<title id="art-title">繪本插圖：富士山、東京鐵塔、東北新幹線、青森蘋果與十二湖</title>
+<g stroke="#3e3a39" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="469" cy="99" r="46" fill="#f6d27a"/>
+<path d="M48 146Q62 130 78 141q13-29 35-27 17 0 24 17 20-4 28 15Z" fill="#fffcf6" class="float"/>
+<path d="M503 150q14-25 33-15 13-23 32-15 11 4 15 18 17-1 28 12Z" fill="#fffcf6" class="float alt"/>
+<path d="m162 278 89-113 51-74q8-11 16 0l45 70 96 117Z" fill="#a8d3e6"/>
+<path d="m252 163 50-72q8-11 16 0l47 72-20-9-16 11-21-13-17 13-14-10Z" fill="#fffcf6"/>
+<path d="M16 284q56-58 121-48 54-53 116-14 73-31 139 20 49-43 114-20 69-30 137 32v105H16Z" fill="#b9daa5"/>
+<path d="M16 306q87-43 170-9 44 18 99-5 97-38 165 2 58 21 193-12v77H16Z" fill="#f6d27a"/>
+<path d="M353 331q69-24 125-6 52 15 165-6v40H352q-22-17 1-28Z" fill="#a8d3e6"/>
+<path d="M440 344h35m44 3h29m21-14h32" stroke-width="3" fill="none"/>
+<g fill="#f2a497"><path d="M88 259l32-101h11l31 101h-22l-14-53-14 53Z"/><path d="M117 172h17l-5-31h-7Z"/><path d="M125 140v-17m-25 101h51m-42-26h33m-33 37 31 22m0-22-31 22" fill="none"/></g>
+<path d="M49 259h130v14H49Z" fill="#fffcf6"/>
+<g stroke-width="3">
+<path d="M522 282v-46m40 39v-49m31 48v-35" fill="none"/>
+<path d="m502 263 20-43 20 43Zm37-9 23-48 23 48Zm36 8 18-40 18 40Z" fill="#b9daa5"/>
+</g>
+<path d="M30 326h322m-291 9h260" fill="none"/>
+<path d="M54 310v-32q0-11 13-11h177q33 0 58 13l37 19q13 7 10 14l-20 6H74q-20 0-20-9Z" fill="#fffcf6"/>
+<path d="M55 300h276l16 9q3 4-6 7l-12 3H74q-19 0-20-9Z" fill="#f2a497"/>
+<rect x="68" y="277" width="21" height="15" rx="4" fill="#a8d3e6"/><rect x="102" y="277" width="26" height="15" rx="4" fill="#a8d3e6"/><rect x="140" y="277" width="26" height="15" rx="4" fill="#a8d3e6"/><rect x="178" y="277" width="25" height="15" rx="4" fill="#a8d3e6"/><path d="M240 276q33 0 60 16h-53Z" fill="#a8d3e6"/>
+<g transform="translate(527 45) rotate(-12)"><g class="float alt"><use href="#apple" width="80" height="80" stroke-width="3.4"/></g></g>
+<g transform="translate(174 40) rotate(-15)"><g class="float"><use href="#plane" width="68" height="68" stroke-width="3.4"/></g></g>
+<g fill="#f2a497" stroke-width="3" class="twinkle"><path d="M65 79q8 0 9-9 1 9 9 9-8 1-9 9-1-8-9-9Z"/><path d="M405 43q7 0 8-8 1 8 8 8-7 1-8 8-1-7-8-8Z"/><path d="M620 194q7 0 8-8 1 8 8 8-7 1-8 8-1-7-8-8Z"/></g>
+<path d="M16 359h627" fill="none"/>
+<text x="52" y="382" font-size="13" letter-spacing="4" stroke="none" fill="#3e3a39">TOKYO</text><text x="544" y="382" font-size="13" letter-spacing="4" stroke="none" fill="#3e3a39">AOMORI</text>
+</g>
+</svg>
+</div></section>
+<section class="section" id="flights" aria-labelledby="flights-title"><div class="section-head"><svg class="icon" data-icon="plane" aria-hidden="true"></svg><h2 id="flights-title">航班資訊</h2><div class="rule"></div></div><div class="grid two" id="flight-grid"></div></section>
+<section class="section" id="itinerary" aria-labelledby="itinerary-title"><div class="section-head"><svg class="icon" data-icon="train" aria-hidden="true"></svg><h2 id="itinerary-title">每日行程</h2><div class="rule"></div></div><div class="tabs" id="tabs" role="tablist" aria-label="選擇行程日期"></div><div class="day" id="day-panel" role="tabpanel" tabindex="0"></div></section>
+<section class="section" id="hotels" aria-labelledby="hotels-title"><div class="section-head"><svg class="icon" data-icon="house" aria-hidden="true"></svg><h2 id="hotels-title">住宿資訊</h2><div class="rule"></div></div><div class="grid two hotels" id="hotel-grid"></div></section>
+<section class="section" id="lists" aria-labelledby="lists-title"><div class="section-head"><svg class="icon" data-icon="check" aria-hidden="true"></svg><h2 id="lists-title">旅途清單</h2><div class="rule"></div></div><div class="check-section" id="checklists"></div></section>
+</main>
+<footer class="foot"><div class="wrap"><p>東京・青森八日遊　2027/05/08–05/15</p><button class="motion" type="button" id="motion" aria-pressed="false">減少動態效果</button></div></footer>
+<noscript><p class="wrap">開啟 JavaScript 即可切換每日行程與使用清單。</p></noscript>
+<script>
+const trip = [[{"time": "01:30", "title": "出發前往平安出國停車場。", "links": [["Google 地圖", "https://maps.app.goo.gl/Xh64gKP7Pasy4tsB7"]]}, {"time": "04:00", "title": "抵達平安出國停車場，室內停車。", "links": [["Google 地圖", "https://maps.app.goo.gl/Xh64gKP7Pasy4tsB7"]]}, {"time": "06:35", "title": "台灣虎航 IT200，自桃園國際機場第一航廈起飛（已提供行程確認單）。", "links": [["Taiwan Taoyuan International Airport Terminal 1", "https://www.google.com/maps/search/?api=1&query=Taiwan+Taoyuan+International+Airport+Terminal+1"]]}, {"time": "11:00", "title": "抵達成田國際機場第二航廈。", "links": [["Narita International Airport Terminal 2", "https://www.google.com/maps/search/?api=1&query=Narita+International+Airport+Terminal+2"]]}, {"time": "11:00–12:30", "title": "入境、領行李與前往機場第 2 航廈鐵路站；時間為估算，依通關狀況調整。", "links": []}, {"time": "12:30–13:45", "title": "【暫定／交通未購票】搭京成 Skyliner 至日暮里，轉 JR 山手線到池袋；含候車、轉乘及步行抓約 75–90 分鐘，班次與票價待 2027 年時刻表確認。", "links": []}, {"time": "13:45–14:00", "title": "【暫定／寄物未預約】於歌廣場池袋 Sunshine 通店 ANNEX 使用 ecbo cloak 店家寄放行李，不使用置物櫃。須事前確認 2 人行李件數、可預約時段及取件時間。", "links": [["Karaoke Utahiroba Ikebukuro Sunshine Dori Annex", "https://www.google.com/maps/search/?api=1&query=Karaoke+Utahiroba+Ikebukuro+Sunshine+Dori+Annex"], ["店家寄物資訊", "https://www.utahiro.com/ecbocloak.html"]]}, {"time": "14:00–15:00", "title": "【暫定／午餐未訂位】在 Sunshine City 吃午餐；卵と私蛋包飯或築地玉壽司二選一。若入境延遲，縮短午餐並延後樂園入場。", "links": [["卵と私", "https://www.google.com/maps/search/?api=1&query=Tamago+to+Watashi+Sunshine+City"], ["築地玉壽司", "https://www.google.com/maps/search/?api=1&query=Tsukiji+Tamasushi+Sunshine+City"]]}, {"time": "15:15–17:00", "title": "【暫定／門票未購買】Chiikawa Park ちいかわパーク。暫抓 15:00 後入場場次；目前 10:00–19:00，最後入場 17:40，2027 年時間待確認。園區不提供大型行李寄存。", "links": [["Chiikawa Park Sunshine City Annex", "https://www.google.com/maps/search/?api=1&query=Chiikawa+Park+Sunshine+City+Annex"], ["門票", "https://chiikawapark-tokyo.jp/ticket/"]], "note": "目前官方售票規則：每月 15 日 12:00（日本時間）販售兩個月後的門票；若規則不變，2027/05/08 場次預計 2027/03/15 12:00 開賣。需確認實際公告；購票後不可更改時段或退票。"}, {"time": "17:00–18:15", "title": "【暫定】回寄物店取行李後，搭東京 Metro 前往銀座。晚餐期間需帶行李，訂位時先詢問餐廳可否暫放 2 件行李箱；不可寄放時須改其他寄物方案。", "links": []}, {"time": "18:30–20:30", "title": "【暫定／晚餐未訂位】USHIGORO S. GINZA，建議預約 18:30 或 19:00、2 人；確切席位與用餐時間待確認。注意是銀座 7-7-7 的「S. GINZA」，不是銀座 1-8-19 的「USHIGORO 銀座店」。", "links": [["USHIGORO S. GINZA 7-7-7", "https://www.google.com/maps/search/?api=1&query=USHIGORO+S.+GINZA+7-7-7"], ["官方資訊", "https://ushigoro-s.com/shop-info.html"]]}, {"time": "20:30–21:30", "title": "【暫定】搭地鐵回西葛西，入住變な飯店東京西葛西（Henn na Hotel Tokyo Nishikasai）。", "links": [["Henn na Hotel Tokyo Nishikasai", "https://www.google.com/maps/search/?api=1&query=Henn+na+Hotel+Tokyo+Nishikasai"]]}], [{"time": "07:30 左右", "title": "前一晚入住西葛西的 2 人用早餐、退房並領取 08:00 接駁整理券。早餐時間待確認，實際接駁人數依會合安排。", "links": []}, {"time": "08:00–08:30", "title": "暫搭西葛西飯店接駁車至東京迪士尼樂園，依當日班次及路況。", "links": []}, {"time": "08:30–09:00", "title": "暫到東京迪士尼樂園飯店辦理提前住宿手續及寄放行李。實際入房依飯店規定。", "links": [["東京ディズニーランドホテル", "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB"]]}, {"time": "09:00–11:00", "title": "東京迪士尼樂園。開園及入園時間待確認。", "links": [["東京ディズニーランド", "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89"]]}, {"time": "11:00–12:20", "title": "午餐暫排水晶宮餐廳自助餐，訂位待確認。", "links": [["クリスタルパレス・レストラン 東京ディズニーランド", "https://www.google.com/maps/search/?api=1&query=%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%91%E3%83%AC%E3%82%B9%E3%83%BB%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3+%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89"]]}, {"time": "12:30–13:30", "title": "樂園遊玩。13:30–14:30 暫留遊行時段。", "links": []}, {"time": "18:30–20:00", "title": "晚餐自由安排。20:00–20:35 暫留煙火及散場時間。", "links": []}, {"time": "20:45 起", "title": "暫住東京迪士尼樂園飯店。這次上傳檔案未附 05/09 住宿確認書。", "links": []}], [{"time": "07:30–08:15", "title": "暫排迪士尼飯店自助早餐。早餐訂位、寄放行李與退房安排待確認。", "links": []}, {"time": "08:30–12:00", "title": "暫排東京迪士尼海洋遊玩。需預留從飯店到園區的交通及安檢時間，入園時間待確認。", "links": [["東京ディズニーシー", "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC"]]}, {"time": "12:00–13:30", "title": "午餐自由安排。13:30–14:30 暫留遊行或表演時段。", "links": []}, {"time": "18:30–20:00", "title": "晚餐自由安排。20:00–20:35 暫留煙火及散場時間。", "links": []}, {"time": "20:35 後", "title": "取行李，前往 JR 舞濱站搭車至八丁堀。原表 21:30 到飯店偏緊，依表演、行李及列車時間調整。", "links": [["舞浜駅", "https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E6%B5%9C%E9%A7%85"], ["八丁堀駅 東京", "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%81%E5%A0%80%E9%A7%85+%E6%9D%B1%E4%BA%AC"]]}, {"time": "晚上", "title": "入住 APA Hotel Hatchobori Ekimae（アパホテル〈八丁堀駅前〉）。", "links": [["APA Hotel Hatchobori Ekimae", "https://www.google.com/maps/search/?api=1&query=APA+Hotel+Hatchobori+Ekimae"]]}], [{"time": "上午", "title": "從 APA 八丁堀站前飯店退房，前往東京站。依暫定新幹線時間提早退房，前往車站的路線待排。", "links": []}, {"time": "08:00–08:30", "title": "依妃妃版暫排東京站集合及備餐。", "links": [["東京駅", "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85"]]}, {"time": "08:30–11:30", "title": "妃妃版暫列的東京→新青森時窗，實際班次未定。先前查得的參考班次為隼號7號 08:37→11:51，並非2027/05/11已確認班次。", "links": [["新青森駅", "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E9%9D%92%E6%A3%AE%E9%A7%85"]]}, {"time": "抵達後", "title": "暫定在新青森站取租車。原表 11:30–12:00 須按實際到站時間往後調整，取車門市及訂單待確認。", "links": []}, {"time": "中午", "title": "暫排廣田神社、善知鳥神社及大福丸午餐。原表神社 12:30–13:15、午餐 13:15–14:30，若取車晚到，先吃午餐。先前查得大福丸午餐最後點餐 14:00，2027 年營業待確認。", "links": [["廣田神社 青森", "https://www.google.com/maps/search/?api=1&query=%E5%BB%A3%E7%94%B0%E7%A5%9E%E7%A4%BE+%E9%9D%92%E6%A3%AE"], ["善知鳥神社", "https://www.google.com/maps/search/?api=1&query=%E5%96%84%E7%9F%A5%E9%B3%A5%E7%A5%9E%E7%A4%BE"], ["海の食堂 大福丸 青森", "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E3%81%AE%E9%A3%9F%E5%A0%82+%E5%A4%A7%E7%A6%8F%E4%B8%B8+%E9%9D%92%E6%A3%AE"]]}, {"time": "14:00 起", "title": "可入住戴瓦羅內青森飯店（Daiwa Roynet Hotel Aomori）。若先到可詢問行李寄放。", "links": [["Daiwa Roynet Hotel Aomori", "https://www.google.com/maps/search/?api=1&query=Daiwa+Roynet+Hotel+Aomori"]]}, {"time": "14:30–18:00", "title": "暫排八甲田丸、睡魔之家、A-FACTORY，依到站及入住進度調整。", "links": [["青函連絡船メモリアルシップ八甲田丸", "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E5%87%BD%E9%80%A3%E7%B5%A1%E8%88%B9%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B7%E3%83%83%E3%83%97%E5%85%AB%E7%94%B2%E7%94%B0%E4%B8%B8"], ["ねぶたの家 ワ・ラッセ", "https://www.google.com/maps/search/?api=1&query=%E3%81%AD%E3%81%B6%E3%81%9F%E3%81%AE%E5%AE%B6+%E3%83%AF%E3%83%BB%E3%83%A9%E3%83%83%E3%82%BB"], ["A-FACTORY 青森", "https://www.google.com/maps/search/?api=1&query=A-FACTORY+%E9%9D%92%E6%A3%AE"]]}, {"time": "19:00–21:00", "title": "晚餐暫排奏屋 かなでや，訂位待確認。晚間返回戴瓦羅內青森飯店。", "links": [["奏屋 かなでや 青森駅前店", "https://www.google.com/maps/search/?api=1&query=%E5%A5%8F%E5%B1%8B+%E3%81%8B%E3%81%AA%E3%81%A7%E3%82%84+%E9%9D%92%E6%A3%AE%E9%A7%85%E5%89%8D%E5%BA%97"]]}], [{"time": "08:30–09:20", "title": "暫定自青森市出發。09:20–10:00 參觀立佞武多之館。", "links": [["立佞武多の館", "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E4%BD%9E%E6%AD%A6%E5%A4%9A%E3%81%AE%E9%A4%A8"]]}, {"time": "10:00 後", "title": "前往十三湖的和歌山吃蜆仔拉麵。原排10:20抵達，僅留20分鐘，車程和停車須重算。", "links": [["ドライブイン和歌山 十三湖", "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%82%A4%E3%83%B3%E5%92%8C%E6%AD%8C%E5%B1%B1+%E5%8D%81%E4%B8%89%E6%B9%96"]]}, {"time": "11:35–12:35", "title": "原排參拜高山稻荷神社，依午餐與路況順延。", "links": [["高山稲荷神社 つがる市", "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%B1%B1%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE+%E3%81%A4%E3%81%8C%E3%82%8B%E5%B8%82"]]}, {"time": "14:00–16:00", "title": "原排十二湖、青池，須連同停車、步行及返程重算。", "links": [["十二湖 青森", "https://www.google.com/maps/search/?api=1&query=%E5%8D%81%E4%BA%8C%E6%B9%96+%E9%9D%92%E6%A3%AE"], ["青池 十二湖", "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%B1%A0+%E5%8D%81%E4%BA%8C%E6%B9%96"]]}, {"time": "16:00–18:15", "title": "原排返回青森市。18:15–20:00 暫排和食処 なごみ壽喜燒，依返程留緩衝。續住戴瓦羅內青森飯店。", "links": [["和食処 なごみ アートホテル青森", "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A3%9F%E5%87%A6+%E3%81%AA%E3%81%94%E3%81%BF+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9B%E3%83%86%E3%83%AB%E9%9D%92%E6%A3%AE"]]}], [{"time": "08:20–08:40", "title": "若5/11未買到御守，補訪廣田神社。", "links": [["廣田神社 青森", "https://www.google.com/maps/search/?api=1&query=%E5%BB%A3%E7%94%B0%E7%A5%9E%E7%A4%BE+%E9%9D%92%E6%A3%AE"]]}, {"time": "08:40–10:20", "title": "暫往奧入瀨溪流。10:20–11:30 暫排沿途短程散步。", "links": [["奥入瀬渓流", "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%85%A5%E7%80%AC%E6%B8%93%E6%B5%81"]]}, {"time": "11:30–13:00", "title": "暫往八戶市。13:00–15:00 午餐暫排八食中心七厘村。", "links": [["八食センター 七厘村", "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E9%A3%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC+%E4%B8%83%E5%8E%98%E6%9D%91"]]}, {"time": "15:00–15:30", "title": "暫往蕪嶋神社。15:30–16:15 參拜。", "links": [["蕪嶋神社", "https://www.google.com/maps/search/?api=1&query=%E8%95%AA%E5%B6%8B%E7%A5%9E%E7%A4%BE"]]}, {"time": "16:15 後", "title": "返回青森市。原表15:15發車與參拜重疊，已移至參拜後。", "links": []}, {"time": "晚餐", "title": "暫排南大門新町店，原定18:00須依返程重新估算。續住戴瓦羅內青森飯店。", "links": [["南大門 新町店 青森", "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E5%A4%A7%E9%96%80+%E6%96%B0%E7%94%BA%E5%BA%97+%E9%9D%92%E6%A3%AE"]]}], [{"time": "06:00–11:00", "title": "從戴瓦羅內青森飯店退房（最晚11:00）。", "links": []}, {"time": "11:00–12:30", "title": "午餐暫排お食事処 おさない。退房後寄放的行李須在接駁集合前取回。", "links": [["お食事処 おさない 青森", "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%A3%9F%E4%BA%8B%E5%87%A6+%E3%81%8A%E3%81%95%E3%81%AA%E3%81%84+%E9%9D%92%E6%A3%AE"]]}, {"time": "12:30–13:20", "title": "青森站採買與取行李。原表排至13:30，已縮短以配合接駁。", "links": []}, {"time": "13:20前", "title": "建議到青森站東口交番前集合。", "links": []}, {"time": "13:30", "title": "搭飯店免費迎賓接駁至南田溫泉（訂單備註已填選此班；待飯店確認人數與座位）。", "links": [["Aomori Station East Exit", "https://www.google.com/maps/search/?api=1&query=Aomori+Station+East+Exit"]]}, {"time": "約14:45", "title": "抵達飯店，依目前公布的接駁時刻作規劃參考；正式2027年時刻仍需飯店確認。", "links": []}, {"time": "15:00後", "title": "入住南田溫泉ホテルアップルランド（青森のお宿 ホテルアップルランド／Hotel Apple Land）。", "links": [["Hotel Apple Land Hirakawa", "https://www.google.com/maps/search/?api=1&query=Hotel+Apple+Land+Hirakawa"], ["飯店接駁", "https://www.apple-land.co.jp/access.php"]], "note": "接駁：訂單備註已填選去回班次，另有交通方式「汽車」欄位。搭乘人數、行李及租車安排待核對。"}, {"time": "15:00–17:30", "title": "妃妃版暫排盛美園、猿賀公園及弘前蘋果派（Patisserie Le Chocolat 或 Anjou）。抵達後須先安排入住或寄物，再確認飯店至各景點的車輛與返程。", "links": [["盛美園", "https://www.google.com/maps/search/?api=1&query=%E7%9B%9B%E7%BE%8E%E5%9C%92"], ["猿賀公園", "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E8%B3%80%E5%85%AC%E5%9C%92"], ["Patisserie Le Chocolat 弘前", "https://www.google.com/maps/search/?api=1&query=Patisserie+Le+Chocolat+%E5%BC%98%E5%89%8D"], ["Anjou 弘前 アップルパイ", "https://www.google.com/maps/search/?api=1&query=Anjou+%E5%BC%98%E5%89%8D+%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%83%91%E3%82%A4"]]}, {"time": "17:30–18:00", "title": "原排返回飯店。18:00–20:00 暫留自助晚餐時段，實際用餐時間待飯店確認。", "links": []}], [{"time": "上午", "title": "享用飯店早餐，建議09:15前辦完退房、09:25前到集合點。", "links": []}, {"time": "09:30", "title": "搭飯店免費送客接駁（訂單備註已填選此班）。", "links": []}, {"time": "約11:00", "title": "抵達青森站，準備轉乘機場巴士。", "links": [["Hotel Apple Land Hirakawa", "https://www.google.com/maps/search/?api=1&query=Hotel+Apple+Land+Hirakawa"], ["Aomori Station", "https://www.google.com/maps/search/?api=1&query=Aomori+Station"]]}, {"time": "11:00–12:00", "title": "午餐暫排味の札幌 大西，須配合巴士班次與排隊情形。", "links": [["味の札幌 大西 青森", "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C+%E5%A4%A7%E8%A5%BF+%E9%9D%92%E6%A3%AE"]]}, {"time": "午餐後", "title": "搭機場巴士到青森機場，車程約35分鐘另加候車。原表12:00–12:30不足以預留巴士車程及候車。待2027年班表公布後確定出發及抵達時間。", "links": []}, {"time": "抵達後", "title": "辦理報到及出境，再採買伴手禮。", "links": [], "note": "飯店退房最晚10:00，但搭09:30接駁必須提前退房；若另有租車，需再安排還車。"}, {"time": "15:30", "title": "長榮航空BR121自青森機場起飛（已提供電子機票）。", "links": [["Aomori Airport", "https://www.google.com/maps/search/?api=1&query=Aomori+Airport"]]}, {"time": "18:40", "title": "抵達桃園國際機場第二航廈。", "links": [["Taiwan Taoyuan International Airport Terminal 2", "https://www.google.com/maps/search/?api=1&query=Taiwan+Taoyuan+International+Airport+Terminal+2"], ["平安出國停車場Google 地圖", "https://maps.app.goo.gl/Xh64gKP7Pasy4tsB7"]]}]];
+const icon = (name, cls='') => `<svg class="${cls}" aria-hidden="true" viewBox="0 0 64 64" stroke="#3e3a39" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><use href="#${name}"/></svg>`;
+const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const map = (q,label='Google 地圖') => link(label,'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q));
+function link(label,url){
+  if (!url.startsWith('https://')) return '';
+  return `<a class="map" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)} ↗</a>`;
+}
+for(const svg of document.querySelectorAll('[data-icon]')) svg.outerHTML=icon(svg.dataset.icon,svg.className.baseVal);
+const flights = [
+  ['去程 · 5/08（六）','台灣虎航 IT200','06:35','桃園 TPE・第一航廈','11:00','成田 NRT・第二航廈','桃園國際機場 第一航廈','成田國際機場 第二航廈','5/8 兩人同行。附件所列旅客含 20 公斤託運。','blue'],
+  ['回程 · 5/15（六）','長榮航空 BR121','15:30','青森 AOJ','18:40','桃園 TPE・第二航廈','青森空港','桃園國際機場 第二航廈','5/15 四人同行。附件所列旅客含兩件託運。','pink']
+];
+document.querySelector('#flight-grid').innerHTML=flights.map(([date,air,from,fromName,to,toName,fromMap,toMap,detail,tone])=>`
+<article class="card"><header class="flight-head ${tone}"><strong>${date}</strong><span>${air}</span></header><div class="flight-body">
+<div class="airports"><div><b>${from}</b><small>${fromName}</small>${map(fromMap)}</div>${icon('plane')}<div><b>${to}</b><small>${toName}</small>${map(toMap)}</div></div><p>時間為當地時間。 ${detail}</p></div></article>`).join('');
+const meta=[
+ ['六','成田 → 池袋吉伊卡哇樂園 → 銀座','2 人同行 · 午餐、樂園及晚餐暫定','plane','東京約 23／13°C，備薄外套及摺疊傘。'],
+ ['日','東京迪士尼樂園','另 2 人今天會合，集合時間及地點待確認','house','東京約 23／13°C，遊行、煙火及餐廳時段待確認。'],
+ ['一','東京迪士尼海洋 → 八丁堀','4 人同行','house','東京約 23／13°C。備薄外套及雨具。'],
+ ['二','東京 → 新青森 → 青森市','4 人同行 · 新幹線及租車待確認','train','青森約 19／9°C，長袖加外套。'],
+ ['三','十三湖、高山稻荷與十二湖','4 人同行 · 自駕暫定','torii','十二湖附近約 17／9°C，備防風外套、雨具及止滑鞋。'],
+ ['四','奧入瀨溪流與八戶','4 人同行 · 自駕暫定','mountain','青森約 19／9°C，溪流散步備防風外套。'],
+ ['五','青森市 → 南田溫泉','4 人同行 · 下午弘前交通待確認','apple','青森地區約 19／9°C，備外套及雨具。'],
+ ['六','南田溫泉 → 青森機場 → 桃園','4 人同行 · 機場巴士待確認','plane','青森地區約 19／9°C，早上穿長袖加外套。']
+];
+const mustVisit = {0:[8],1:[3],2:[1],3:[6],4:[2,3],5:[1,3],6:[6,7]};
+const modes = {
+  '自駕':['自駕','pink'],'飛機':['飛機','blue'],'接駁':['接駁','green'],
+  '電車':['電車','blue'],'地鐵':['地鐵','blue'],'新幹線':['新幹線','blue'],'巴士':['巴士','green'],'步行':['步行','yellow']
+};
+const transport = [
+  {0:'自駕',1:'自駕',2:'飛機',3:'飛機',5:'電車',9:'地鐵',11:'地鐵'},
+  {1:'接駁'},
+  {4:'電車'},
+  {2:'新幹線',3:'自駕'},
+  {0:'自駕',1:'自駕',4:'自駕'},
+  {1:'自駕',2:'自駕',3:'自駕',4:'自駕'},
+  {3:'步行',4:'接駁',5:'接駁'},
+  {1:'接駁',2:'接駁',4:'巴士',6:'飛機',7:'飛機'}
+];
+const tabs=document.querySelector('#tabs');
+const panel=document.querySelector('#day-panel');
+tabs.innerHTML=meta.map(([weekday],i)=>`<button type="button" id="day-${i}" role="tab" aria-controls="day-panel" aria-selected="false" tabindex="-1">5/${String(i+8).padStart(2,'0')}<small>星期${weekday}</small></button>`).join('');
+let active=0;
+function showDay(index,focus=false){
+  active=index;
+  [...tabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',i===index);tab.tabIndex=i===index?0:-1});
+  panel.setAttribute('aria-labelledby','day-'+index);
+  const [,title,sub,draw,weather]=meta[index];
+  const events=trip[index].map((event,i)=>{
+    const mode=modes[transport[index][i]];
+    const must=mustVisit[index]?.includes(i);
+    const tags=(mode?`<span class="tag ${mode[1]}">${mode[0]}</span>`:'')+(must?'<span class="tag must">★ 必去</span>':'');
+    return `<li class="event"><time>${escapeHtml(event.time)}</time><div>${tags?'<div class="tags">'+tags+'</div>':''}<p>${escapeHtml(event.title)}</p>${event.note?`<p class="note">${escapeHtml(event.note)}</p>`:''}${event.links.length?`<div class="maps">${event.links.map(([label,url])=>link(label,url)).join('')}</div>`:''}</div></li>`;
+  }).join('');
+  panel.innerHTML=`<header class="day-head"><div><h3>${title}</h3><p>${sub}</p></div>${icon(draw)}</header><p class="weather">${weather}（歷年氣候參考）</p><ol class="timeline">${events}</ol>`;
+  panel.classList.remove('pop');void panel.offsetWidth;panel.classList.add('pop');
+  if(focus) tabs.children[index].focus();
+}
+tabs.addEventListener('click',event=>{const button=event.target.closest('[role="tab"]');if(button)showDay([...tabs.children].indexOf(button))});
+tabs.addEventListener('keydown',event=>{
+  const target={ArrowRight:(active+1)%8,ArrowLeft:(active+7)%8,Home:0,End:7}[event.key];
+  if(target===undefined)return;event.preventDefault();showDay(target,true);
+});
+showDay(0);
+const hotels=[
+ ['5/08 → 5/09','西葛西變な飯店','Henn na Hotel Tokyo Nishikasai','15:00–00:00 入住 · 11:00 前退房','2 間禁菸雙人房、含早餐。當晚 2 人同行，訂單列 4 位成人。'],
+ ['5/09 → 5/10','東京迪士尼樂園飯店','Tokyo Disneyland Hotel','暫排提前辦理住宿手續及寄放行李','4 人同行。住宿與 5/10 早餐待確認。',true],
+ ['5/10 → 5/11','APA 八丁堀站前','APA Hotel Hatchobori Ekimae','15:00 起入住 · 10:00 前退房','2 間雙人房、4 位成人、不含餐。'],
+ ['5/11 → 5/14','戴瓦羅內青森飯店','Daiwa Roynet Hotel Aomori','14:00–00:00 入住 · 06:00–11:00 退房','3 晚、2 間禁菸豪華雙人房、4 位成人、不含餐。'],
+ ['5/14 → 5/15','南田溫泉 Hotel Apple Land','Hotel Apple Land Hirakawa','15:00 起入住 · 10:00 前退房','2 間和室、4 位成人、含早晚餐。已填選去程 13:30 及回程 09:30 接駁。']
+];
+document.querySelector('#hotel-grid').innerHTML=hotels.map(([date,name,q,hours,detail,pending])=>`<article class="card hotel"><div class="tags"><span class="badge">${date}</span><span class="badge ${pending?'pending':'green'}">${pending?'住宿暫定':'已有訂單'}</span></div><h3>${name}</h3><p class="sub">${hours}</p><p>${detail}</p>${map(q)}</article>`).join('');
+const checklists=[
+ ['todo','行程待辦','pink',['確認 5/8 西葛西實際入住及用早餐人數','確認 5/9 另兩位旅伴的集合時間與地點','確認迪士尼飯店、兩天門票及餐廳訂位','預訂 5/11 新幹線，確認新青森取車與還車','重算 5/12 十三湖車程、5/13 回程及晚餐時間','確認 5/14、5/15 溫泉接駁的座位與行李','確認 5/15 青森站到機場的巴士班次','購買 5/8 Chiikawa Park 入場門票（目前未購票；留意 2027 年售票公告）','預約 5/8 池袋 ecbo cloak 店家寄物與取件時段（目前未預約）','預訂 5/8 USHIGORO S. GINZA 雙人晚餐並確認行李箱存放（目前未訂位）','確認 5/8 Skyliner 列車班次與購票（目前未購票）']],
+ ['before','出發前清單','yellow',['核對四位旅客的去回程航班與訂單','確認護照效期、旅遊保險及緊急聯絡方式','備妥電子機票、飯店資料與接駁資訊','確認停車場報到與回國取車流程','準備上網方式、日圓及交通付款方式','出發前查天氣及最新交通、景點時刻']],
+ ['pack','行李清單','green',['護照、錢包及信用卡','手機、充電器、行動電源及轉接頭','薄長袖、可穿脫的保暖外套','摺疊傘或輕便雨衣','好走的止滑鞋與備用襪','個人藥品、盥洗用品及口罩','行李吊牌、隨身小包及購物袋']]
+];
+const storageKey='tokyo-aomori-2027-v1';
+let state={checks:{},motion:false};
+try {const saved=JSON.parse(localStorage.getItem(storageKey));if(saved && typeof saved==='object')state={checks:saved.checks??{},motion:saved.motion===true};} catch{}
+function save(){try{localStorage.setItem(storageKey,JSON.stringify(state))}catch{}}
+const lists=document.querySelector('#checklists');
+lists.innerHTML=checklists.map(([key,title,tone,items])=>`<article class="card"><header class="todo-head ${tone}"><h3>${title}</h3><span id="progress-${key}" aria-live="polite"></span></header><div class="todo-body">${items.map((item,i)=>`<label class="todo"><input type="checkbox" data-key="${key}-${i}" ${state.checks[key+'-'+i]?'checked':''}><span>${item}</span></label>`).join('')}</div></article>`).join('');
+function updateProgress(){
+  checklists.forEach(([key,,,items])=>{document.querySelector('#progress-'+key).textContent=items.filter((_,i)=>state.checks[key+'-'+i]).length+' / '+items.length});
+}
+lists.addEventListener('change',event=>{
+  if(!event.target.matches('input[data-key]'))return;
+  state.checks[event.target.dataset.key]=event.target.checked;
+  save();updateProgress();
+});
+updateProgress();
+const motion=document.querySelector('#motion');
+function applyMotion(){document.documentElement.dataset.motion=state.motion?'off':'auto';motion.setAttribute('aria-pressed',state.motion);}
+motion.addEventListener('click',()=>{state.motion=!state.motion;applyMotion();save()});
+applyMotion();
+const departure=Date.parse('2027-05-08T06:35:00+08:00');
+function countdown(){
+  const remaining=departure-Date.now();
+  if(remaining<=0){document.querySelector('#count-label').textContent='旅程已出發';document.querySelector('#count').hidden=true;return}
+  const mins=Math.ceil(remaining/60000);
+  document.querySelector('#days').textContent=Math.floor(mins/1440);
+  document.querySelector('#hours').textContent=String(Math.floor(mins%1440/60)).padStart(2,'0');
+  document.querySelector('#minutes').textContent=String(mins%60).padStart(2,'0');
+}
+countdown();setInterval(countdown,15000);
+</script>
+</body>
+</html>
